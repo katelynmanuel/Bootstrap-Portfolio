@@ -14,6 +14,16 @@
     padding: 20px;
 } 
 
+.connectSectionContent {
+    border: #dddddd 1px solid;
+    border-radius: 10px;
+    background-color:white;
+    margin-top: 50px;
+    padding: 20px;
+    height: 160px;
+    text-align: center;
+}
+
 .bioImage {
     margin: 10px;
 }
@@ -23,7 +33,11 @@ p {
 }
 
 .portfolioImages {
-    position: relative
+    position: relative;
+}
+
+.portfolioImageBottomMargin{
+    margin-bottom: 50px;
 }
 
 #portfolioImageCaption {
@@ -35,4 +49,13 @@ p {
     text-align: center;
     background-color: #4aaaa5;
     padding: 10px;
+}
+
+.contactFormContent {
+    border: #dddddd 1px solid;
+    border-radius: 10px;
+    background-color:white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
 }
