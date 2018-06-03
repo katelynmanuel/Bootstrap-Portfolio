@@ -10,41 +10,47 @@
 </head>
 
 <body>
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Katelyn Manuel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
+    <header id="headerContent">
+        <div class="container">
+            <a href="index.html" id="headerName">Katelyn Manuel</a>
+            <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </nav>
-    <!--End Navigation-->
+    </header>
 
-    <!--Contact Form-->
     <div class="container">
-        <div class="row contactFormContent">
-            <form>
-                <div class="form-group">
-                    <input type="name" class="form-control" id="contactName" aria-describedby="emailHelp" placeholder="Your Name">
-                </div>
-        
-                <div class="form-group">
-                    <input type="email" class="form-control" id="contactEmail" placeholder="Email">
-                </div>
+        <!--Contact Form-->
+        <div class="row">
+            <div class="col-md-12 contactFormContent">
+                <h2>Drop a Note</h2>
+                <form>
+                    <label for="name">First Name</label><br/>
+                    <input type="text" class="contactForm" name="firstname">
+                    <br/>
 
-                <div class="form-group">
-                    <textarea class="form-control" id="message" rows="3" placeholder="What's Up?"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+                    <label for="email">Email</label><br/>
+                    <input type="text" class="contactForm" name="email">
+                    <br/>
+
+                    <label for="message">Message</label><br/>
+                    <textarea class="contactForm" id="message" name="message"></textarea>
+                    <br/>
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </div>
     
+    <!--Footer-->
+    <div class="row">
+        <div class="col-md-12">
+            <footer>
+                Copyright © 2018.
+            </footer>
+        </div>
+    </div>
+    <!--End Footer-->
 </body>
